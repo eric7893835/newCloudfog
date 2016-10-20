@@ -1,0 +1,218 @@
+html {
+  font-size: 100px;
+}
+@media only screen and (min-width: 360px) {
+  html {
+    font-size: 112.5px !important;
+  }
+}
+@media only screen and (min-width: 375px) {
+  html {
+    font-size: 117.187px !important;
+  }
+}
+@media only screen and (min-width: 412px) {
+  html {
+    font-size: 128.75px !important;
+  }
+}
+body {
+  font-family: "微软雅黑";
+}
+#content {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  overflow: hidden;
+}
+.fix-top {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+.head {
+  height: 0.4rem;
+  line-height: 0.4rem;
+  background-color: #253655;
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+  font-size: 0.12rem;
+}
+.head .logo {
+  display: inline-block;
+  width: 1.8rem;
+}
+.head .user-name {
+  color: #cfe7fd;
+}
+.head .user-name img {
+  height: 0.15rem;
+}
+.head .exit {
+  color: #cfe7fd;
+}
+.operating-space {
+  clear: both;
+  height: 0.41rem;
+  border-bottom: 1px solid #b3bace;
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+  font-size: 0.12rem;
+  background-color: #dee9ef;
+}
+.operating-space a {
+  color: #1b1b1b;
+}
+.operating-space .all-file {
+  width: 0.6rem;
+  height: 0.41rem;
+  line-height: 0.41rem;
+}
+.operating-space .all-file .drop {
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);/* IE 9 */
+  -moz-transform: rotate(90deg);/* Firefox */
+  -webkit-transform: rotate(90deg);/* Safari 和 Chrome */
+  -o-transform: rotate(90deg);/* Opera */
+  height: 0.08px;
+}
+.operating-space .search {
+  display: inline-block;
+  width: 2.1rem;
+  text-align: center;
+}
+.operating-space .search .search-input {
+  width: 1.4rem;
+  height: 0.22rem;
+  line-height: 0.22rem;
+  border-radius: 4px;
+  border: 0;
+  padding-left: 0.22rem;
+  background: url("../images/home/search.png") no-repeat 6px center;
+  background-size: 0.15rem;
+  background-color: #ffffff;
+}
+.operating-space .order {
+  width: 0.6rem;
+  text-align: center;
+}
+.column {
+  padding-left: 0.15rem;
+  padding-right: 0.15rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  border-bottom: 1px solid #b3bace;
+  background-color: #ffffff;
+  margin: 0;
+  font-size: 0.12rem;
+}
+.column li {
+  display: inline-block;
+  width: 0.45rem;
+  text-align: center;
+}
+.column li a {
+  color: #717a8a;
+}
+.subnav {
+  height: 0.3rem;
+  line-height: 0.3rem;
+  border-bottom: 1px solid #ececec;
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+  background-color: #ffffff;
+  font-size: 0.1rem;
+}
+.subnav input {
+  vertical-align: middle;
+}
+#list-scroll {
+  height: 3.7rem;
+  margin-top: 1.56rem;
+  overflow-y: scroll;
+  margin-bottom: 0.45rem;
+}
+.contain {
+  font-size: 0.12rem;
+  overflow: visible;
+}
+.contain .list {
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+}
+.contain .list input {
+  vertical-align: middle;
+}
+.contain .list .file-check {
+  height: 0.56rem;
+  line-height: 0.56rem;
+}
+.contain .list .file-check .extension-img {
+  margin-left: 0.09rem;
+}
+.contain .list .info {
+  margin-left: 0.09rem;
+  width: 1.9rem;
+}
+.contain .list .info p {
+  margin: 0;
+  line-height: 0.3rem;
+}
+.contain .list .list1 {
+  height: 0.56rem;
+}
+.contain .list .list2 {
+  clear: both;
+  height: 0.56rem;
+}
+.contain .list .list3 {
+  clear: both;
+  height: 0.56rem;
+}
+.contain .list .dropdown-box {
+  height: 0.56rem;
+  line-height: 0.56rem;
+}
+.contain .list .dropdown-box .dropdown {
+  height: 0.1rem;
+}
+.footer {
+  width: 3.2rem;
+  height: 0.45rem;
+  background-color: #44597f;
+  position: fixed;
+  bottom: 0px;
+  font-size: 0.1rem;
+}
+.footer div {
+  width: 1.03rem;
+  height: 0.45rem;
+  text-align: center;
+  float: left;
+}
+.footer div img {
+  vertical-align: top;
+}
+.footer div p {
+  margin: 0;
+  color: #afc5db;
+  font-size: 0.12rem;
+}
+.footer .dir-file {
+  padding-top: 0.05rem;
+}
+.footer .dir-file img {
+  width: 0.2rem;
+  height: 0.2rem;
+}
+.footer .add {
+  padding-top: 0.06rem;
+}
+.footer .trans {
+  padding-top: 0.05rem;
+}
+.footer .trans img {
+  width: 0.2rem;
+  height: 0.2rem;
+}
+/*# sourceMappingURL=home.css.map */

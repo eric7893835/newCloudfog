@@ -1,0 +1,76 @@
+html {
+  background-color: #6584b4;
+}
+.body {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.body .yun-img {
+  display: block;
+  margin: 48px auto auto;
+}
+.body .login-text {
+  width: 100%;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 12px;
+}
+.body .login-form {
+  margin-top: 46px;
+  width: 100%;
+  overflow: hidden;
+}
+.body .login-form input {
+  height: 40px;
+  padding-left: 46px;
+  border: 1px solid #e0e0e0;
+  width: 100%;
+}
+.body .login-form .user-name {
+  background: url("../images/login/user.png") no-repeat 16px center;
+  background-color: #ffffff;
+}
+.body .login-form .password {
+  background: url("../images/login/pwd.png") no-repeat 16px center;
+  background-color: #ffffff;
+}
+.body .login-form .plea-input {
+  color: #f5f5f5;
+  line-height: 32px;
+}
+.body .login-form .plea-input img {
+  width: 6px;
+  height: 10px;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -moz-transform: rotate(90deg);
+  /* Firefox */
+  -webkit-transform: rotate(90deg);
+  /* Safari 和 Chrome */
+  -o-transform: rotate(90deg);
+  /* Opera */
+}
+.body .login-form .xu-img {
+  margin: 0 auto;
+  width: 100%;
+}
+.body .login-form .submit {
+  height: 46px;
+  line-height: 46px;
+  background-color: #ffa02f;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  padding: 0;
+  margin-top: 24px;
+  border: 0;
+}
+.body .footer p {
+  width: 100%;
+  text-align: center;
+  color: #bcc8dc;
+  margin-top: 62px;
+}
+/*# sourceMappingURL=login.css.map */
